@@ -22,5 +22,6 @@
             
         }
     },
-    "workbench.settings.applyToAllProfiles": []
+    "workbench.settings.applyToAllProfiles": [],
+    "window.menuBarVisibility": "compact"
 }
