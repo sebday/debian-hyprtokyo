@@ -1,0 +1,26 @@
+{
+    "window.commandCenter": 1,
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'CaskaydiaMono Nerd Font', 'monospace', monospace",
+    "editor.fontVariations": false,
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.colorCustomizations": {
+        "[Tokyo Night]": {
+            "editor.background": "#0a0e19",
+            "sideBar.background": "#06080f",
+            "activityBar.background": "#0a0e19",
+            "panel.background": "#0a0e19",
+            "terminal.background": "#0a0e19",
+            "tab.activeBackground": "#0a0e19",
+            "tab.inactiveBackground": "#06080F",
+            "titleBar.activeBackground": "#0a0e19",
+            "titleBar.inactiveBackground": "#06080F",
+            "editorGroupHeader.tabsBackground": "#06080F",
+            "breadcrumb.background": "#0a0e19",
+            "statusBar.background": "#0a0e19",
+            
+        }
+    },
+    "workbench.settings.applyToAllProfiles": []
+}
