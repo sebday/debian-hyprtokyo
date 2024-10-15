@@ -42,3 +42,8 @@ Set the theme, icons and font in nwg-look.
 Copy ~/.firefox/userContent.css to the ~/.mozilla/firefox/profile/chrome directory \
 In `about:config` set "toolkit.legacyUserProfileCustomizations.stylesheets" to `true` \
 Install the Stylus extension and import ~/.mozilla/firefox/stylus-export.json
+
+## Resources
+
+ - Firefox [https://addons.mozilla.org/en-GB/firefox/addon/tokyonight_vim/](https://addons.mozilla.org/en-GB/firefox/addon/tokyonight_vim/)
+ - VS Code [https://marketplace.visualstudio.com/items?itemName=sebday.tokyo-night](https://marketplace.visualstudio.com/items?itemName=sebday.tokyo-night)
