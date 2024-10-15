@@ -1,6 +1,6 @@
 # Hyprland on Debian Sid
 
-[![screenshot](https://imghost.lol/screenshots/2024-10-15-225558_hyprshot)](https://imghost.lol/screenshots/2024-10-15-225558_hyprshot.png)
+[![screenshot](https://imghost.lol/screenshots/2024-10-15-225558_hyprshot.png)](https://imghost.lol/screenshots/2024-10-15-225558_hyprshot.png)
 ## Install Hyprland
 Install a base system with no desktop environment, add `contrib` and `non-free` and dist-update to sid. (I like to install the ssh-server from tasksel and then remote in to install the rest)
 
