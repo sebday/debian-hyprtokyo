@@ -1,6 +1,6 @@
 {
     "window.commandCenter": 1,
-    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorTheme": "Tokyo Night",
     "editor.fontSize": 16,
     "editor.fontFamily": "'CaskaydiaMono Nerd Font', 'monospace', monospace",
     "editor.fontVariations": false,
@@ -8,15 +8,15 @@
     "workbench.colorCustomizations": {
         "[Tokyo Night]": {
             "editor.background": "#0a0e19",
-            "sideBar.background": "#06080f",
+            "sideBar.background": "#0a0e19",
             "activityBar.background": "#0a0e19",
             "panel.background": "#0a0e19",
             "terminal.background": "#0a0e19",
             "tab.activeBackground": "#0a0e19",
-            "tab.inactiveBackground": "#06080F",
+            "tab.inactiveBackground": "#0a0e19",
             "titleBar.activeBackground": "#0a0e19",
-            "titleBar.inactiveBackground": "#06080F",
-            "editorGroupHeader.tabsBackground": "#06080F",
+            "titleBar.inactiveBackground": "#0a0e19",
+            "editorGroupHeader.tabsBackground": "#0a0e19",
             "breadcrumb.background": "#0a0e19",
             "statusBar.background": "#0a0e19",
             

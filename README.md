@@ -36,9 +36,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 `sudo apt install eza fzf duf sshfs btop fastfetch pipewire alsa-utils playerctl pamixer pavucontrol imv mpv qalc cava thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends transmission libfuse2`
 
 ## GTK Theme
-Set the theme in nwg-look 
+Set the theme, icons and font in nwg-look.
 
 ## Firefox
 Copy ~/.firefox/userContent.css to the ~/.mozilla/firefox/profile/chrome directory \
 In `about:config` set "toolkit.legacyUserProfileCustomizations.stylesheets" to `true` \
-Install the Stylus extension and import ~/.mozilla/firefox/stylus-export.json \
+Install the Stylus extension and import ~/.mozilla/firefox/stylus-export.json
