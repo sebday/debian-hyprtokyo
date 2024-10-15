@@ -1,0 +1,36 @@
+{
+"include": "~/.config/waybar/modules", 
+"layer": "top",
+"output": "DP-2",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 0,
+"margin-bottom": 0,
+"margin-left": 10,
+"margin-right": 10,
+
+"modules-left": [
+	"cpu",
+	"temperature",
+    "memory",
+    "disk",
+	"network#speed",
+	],
+
+"modules-center": [
+	"hyprland/workspaces#rw",
+	"keyboard-state"
+	], 
+
+"modules-right": [
+	"custom/cava_mviz",
+	"pulseaudio",
+    "pulseaudio#microphone",
+	"clock",
+    "tray"
+	]
+}
