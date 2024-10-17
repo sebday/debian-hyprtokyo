@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Cursor
+Comment=AI assisted editor
+GenericName=Code Editor
+Exec=/home/seb/.local/bin/cursor.AppImage --enable-features=UseOzonePlatform --ozone-platform-hint=auto
+Type=Application
+Icon=text-editor-symbolic
+Categories=Dev;
+StartupNotify=true
