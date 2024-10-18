@@ -314,20 +314,14 @@
 			]
 		},
 		"scroll-step": 5.0,
-		"on-click": "~/.config/waybar/scripts/Volume.sh --toggle",
-		"on-click-right": "pavucontrol -t 3",
-		"on-scroll-up": "~/.config/waybar/scripts/Volume.sh --inc",
-		"on-scroll-down": "~/.config/waybar/scripts/Volume.sh --dec",
+		"on-click": "pavucontrol -t 3",
 		"smooth-scrolling-threshold": 1
 	},
 	"pulseaudio#microphone": {
 		"format": "{format_source}",
 		"format-source": " {volume}%",
 		"format-source-muted": "",
-		"on-click": "~/.config/waybar/scripts/Volume.sh --toggle-mic",
-		"on-click-right": "pavucontrol -t 4",
-		"on-scroll-up": "~/.config/waybar/scripts/Volume.sh --mic-inc",
-		"on-scroll-down": "~/.config/waybar/scripts/Volume.sh --mic-dec",
+		"on-click": "pavucontrol -t 4",
 		"tooltip-format": "{source_desc} | {source_volume}%",
 		"scroll-step": 5
 	},

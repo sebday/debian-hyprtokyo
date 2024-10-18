@@ -29,7 +29,6 @@
 "modules-right": [
 	"custom/cava_mviz",
 	"pulseaudio",
-    "pulseaudio#microphone",
 	"clock",
     "tray"
 	]

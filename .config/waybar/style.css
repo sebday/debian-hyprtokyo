@@ -43,6 +43,7 @@ window#waybar {
   	background: @base;
 	padding: 2px;
 	border-radius: 0 0 10px 10px;
+	border-top: none;
 }
 
 window#waybar.hidden {
@@ -71,7 +72,7 @@ window#waybar.empty #window {
 #workspaces button:hover,
 #workspaces button.active:hover {
 	border-radius: 5px;
-	color: @pink;
+	color: @green;
  	padding-left: 2px;
     padding-right: 2px;
 }
@@ -83,7 +84,7 @@ window#waybar.empty #window {
 
 #taskbar button.active,
 #workspaces button.active {
-	color: @pink;
+	color: @green;
   	border-radius: 10px;
     padding-left: 8px;
     padding-right: 8px;
