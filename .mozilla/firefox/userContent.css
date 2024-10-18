@@ -5,10 +5,10 @@
     :root {
       --badge-active-background-color: #3d59a1 !important;
       --badge-active-border-color: #d8dee9 !important;
-      --badge-background-color: #1a1b26 !important;
-      --badge-border-color: #1a1b26 !important;
+      --badge-background-color: #0a0e19 !important;
+      --badge-border-color: #0a0e19 !important;
       --badge-color: #ff757f !important;
-      --badge-hover-background-color: #1a1b26 !important;
+      --badge-hover-background-color: #0a0e19 !important;
       --badge-interactive-background-color: #292e42 !important;
       --badge-interactive-color: #ff757f !important;
       --badge-scrollable-color: #B98EFF !important;
@@ -29,19 +29,19 @@
       --theme-tooltip-icon-dimmed-color: rgb(255, 255, 255) !important;
       --theme-arrowpanel-background: #292e42 !important;
       --theme-arrowpanel-color: rgb(249, 249, 250) !important;
-      --theme-arrowpanel-border-color: #1a1b26 !important;
+      --theme-arrowpanel-border-color: #0a0e19 !important;
       --theme-arrowpanel-separator: rgba(249,249,250,.1) !important;
       --theme-arrowpanel-dimmed: rgba(249, 249, 250, 0.1) !important;
       --theme-arrowpanel-dimmed-further: rgba(249,249,250,.15) !important;
       --theme-arrowpanel-disabled-color: rgba(249,249,250,.5) !important;
       
-      --theme-body-background: #1a1b26 !important;
-      --theme-body-emphasized-background: #1a1b26 !important;
-      --theme-sidebar-background: #1a1b26 !important;
+      --theme-body-background: #0a0e19 !important;
+      --theme-body-emphasized-background: #0a0e19 !important;
+      --theme-sidebar-background: #0a0e19 !important;
 
       /* Toolbar */
       --theme-tab-toolbar-background: #292e42 !important;
-      --theme-toolbar-background: #1a1b26 !important;
+      --theme-toolbar-background: #0a0e19 !important;
       --theme-toolbar-color: #d8dee9 !important;
       --theme-toolbar-selected-color: #eceff4 !important;
       --theme-toolbar-highlighted-color: #9ece6a !important;
@@ -54,7 +54,7 @@
       /* Toolbar buttons */
       --toolbarbutton-background: #292e42 !important;
       --toolbarbutton-hover-background: #292e42 !important;
-      --toolbarbutton-focus-background: #1a1b26 !important;
+      --toolbarbutton-focus-background: #0a0e19 !important;
       --toolbarbutton-focus-color: #ff757f !important;
       --toolbarbutton-checked-background: #3d59a1 !important;
       --toolbarbutton-checked-focus-background: var(--blue-60) !important;
@@ -66,7 +66,7 @@
 
       /* Accordion headers */
       --theme-accordion-header-background: #4c566a !important;
-      --theme-accordion-header-hover: #1a1b26 !important;
+      --theme-accordion-header-hover: #0a0e19 !important;
 
       /* Selection */
       --theme-selection-background: #292e42 !important;
@@ -75,9 +75,9 @@
       --theme-selection-color: #9ece6a !important;
 
       /* Border color that splits the toolbars/panels/headers. */
-      --theme-splitter-color: #1a1b26 !important;
-      --theme-emphasized-splitter-color: #1a1b26 !important;
-      --theme-emphasized-splitter-color-hover: #1a1b26 !important;
+      --theme-splitter-color: #0a0e19 !important;
+      --theme-emphasized-splitter-color: #0a0e19 !important;
+      --theme-emphasized-splitter-color-hover: #0a0e19 !important;
 
       /* Icon colors */
       --theme-icon-color: rgba(249, 249, 250, 0.7) !important;
@@ -125,14 +125,14 @@
 
       /* Styling for devtool buttons */
       --theme-toolbarbutton-background: none !important;
-      --theme-toolbarbutton-color: #1a1b26 !important;
-      --theme-toolbarbutton-hover-background: #1a1b26 !important;
+      --theme-toolbarbutton-color: #0a0e19 !important;
+      --theme-toolbarbutton-hover-background: #0a0e19 !important;
       --theme-toolbarbutton-checked-background: #9ece6a !important;
-      --theme-toolbarbutton-checked-color: #1a1b26 !important;
-      --theme-toolbarbutton-checked-hover-background: #1a1b26 !important;
-      --theme-toolbarbutton-checked-hover-color: #1a1b26 !important;
-      --theme-toolbarbutton-active-background: #1a1b26 !important;
-      --theme-toolbarbutton-active-color: #1a1b26 !important;
+      --theme-toolbarbutton-checked-color: #0a0e19 !important;
+      --theme-toolbarbutton-checked-hover-background: #0a0e19 !important;
+      --theme-toolbarbutton-checked-hover-color: #0a0e19 !important;
+      --theme-toolbarbutton-active-background: #0a0e19 !important;
+      --theme-toolbarbutton-active-color: #0a0e19 !important;
 
       /* Used for select elements */
       --theme-select-background: #9ece6a !important;
