@@ -1,6 +1,10 @@
 # Hyprland on Debian Sid
 
+*Tokyo Night with a dark blue background for Soundcloud, btop, fastfetch and vs code*
 [![screenshot](https://imghost.lol/screenshots/2024-10-18-014509_hyprshot.png)](https://imghost.lol/screenshots/2024-10-18-014509_hyprshot.png)
+*Firefox and dev tools*
+[![screenshot](https://imghost.lol/screenshots/2024-10-18-235027_hyprshot.png)](https://imghost.lol/screenshots/2024-10-18-235027_hyprshot.png)
+
 ## Install Hyprland
 Install a base system with no desktop environment, add `contrib` and `non-free` and dist-update to sid. (I like to install the ssh-server from tasksel and then remote in to install the rest)
 
