@@ -5,6 +5,7 @@
 "exclusive": true,
 "passthrough": false,
 "position": "top",
+"height": 32,
 "spacing": 3,
 "fixed-center": true,
 "ipc": true,
@@ -18,7 +19,7 @@
 	"temperature",
     "memory",
     "disk",
-	"network#speed",
+	"network#speed"
 	],
 
 "modules-center": [
