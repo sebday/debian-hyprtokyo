@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=LM Studio
+Comment=Run LLM models
+GenericName=LLM
+Exec=/home/seb/.local/bin/lmstudio.AppImage
+Type=Application
+Icon=gbrainy
+Categories=Dev;
+StartupNotify=true
+Path=
+Terminal=false
