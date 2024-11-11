@@ -3,6 +3,7 @@
     "workbench.colorTheme": "Tokyo Night",
     "editor.fontSize": 16,
     "editor.fontFamily": "'CaskaydiaMono Nerd Font', 'monospace', monospace",
+    "editor.fontLigatures": true,
     "editor.fontVariations": false,
     "git.openRepositoryInParentFolders": "always",
     "workbench.colorCustomizations": {
@@ -22,5 +23,7 @@
             
         }
     },
-    "workbench.settings.applyToAllProfiles": []
+    "workbench.settings.applyToAllProfiles": [],
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "explorer.confirmDelete": false,
 }
