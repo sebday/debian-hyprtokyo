@@ -26,4 +26,6 @@
     "workbench.settings.applyToAllProfiles": [],
     "javascript.updateImportsOnFileMove.enabled": "never",
     "explorer.confirmDelete": false,
+    "html.autoClosingTags": false,
+    "workbench.editor.enablePreview":false,
 }
