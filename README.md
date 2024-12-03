@@ -39,6 +39,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 ## Standard tools
 `sudo apt install eza fzf duf sshfs btop fastfetch pipewire alsa-utils playerctl pamixer pavucontrol imv mpv qalc cava thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends transmission libfuse2`
 
+## Software
+ Install into `~/.local/bin`  [Obsidian](https://obsidian.md/) and [Cursor](https://www.cursor.com/). Grab [Insync](https://www.insynchq.com/) for Google Drive and OneDrive.
+
+ Activate the Obsidian snippet custom-background.css in settings to change the background.
+
 ## GTK Theme
 Set the theme, icons and font in nwg-look.
 
@@ -48,6 +53,6 @@ In `about:config` set "toolkit.legacyUserProfileCustomizations.stylesheets" to `
 Install the Stylus extension and import ~/.mozilla/firefox/stylus-export.json
 
 ## Resources
-
  - Firefox [https://addons.mozilla.org/en-GB/firefox/addon/tokyonight_vim/](https://addons.mozilla.org/en-GB/firefox/addon/tokyonight_vim/)
  - VS Code [https://marketplace.visualstudio.com/items?itemName=sebday.tokyo-night](https://marketplace.visualstudio.com/items?itemName=sebday.tokyo-night)
+ 
