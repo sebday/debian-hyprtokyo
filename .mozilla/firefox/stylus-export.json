@@ -125,7 +125,7 @@
     "name": "soundcloud.com",
     "updateDate": 1729015586209,
     "_id": "36280913-df3f-4b1a-a096-41814f5219ef",
-    "_rev": 1729015586209,
+    "_rev": 1733250758825,
     "id": 1
   },
   {
@@ -136,22 +136,22 @@
         "code": ""
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name         Whatsapp Nordified\n@version      1.1\n@namespace    ?\n==/UserStyle== */\n@-moz-document domain(\"web.whatsapp.com\") {\n    .dark {\n        --drawer-background-deep: #242933;\n        --drawer-background: #2e3440;\n        --drawer-section-background: #2e3440;\n        --drawer-gallery-background: #2e3440;\n        --incoming-background: #2e3440;\n        --panel-header-background: #2e3440;\n        --conversation-panel-background: #242933;\n        --incoming-background-deeper: #242933;\n        --rich-text-panel-background: #2e3440;\n        --compose-input-border: #2e3440;\n        --compose-input-background: #242933;\n        --background-default: #2e3440;\n        --background-default-hover: #3b4252;\n        --background-lighter-hover: #434c5e;\n        --background-lightest-hover: #4c566a;\n        --background-default-active: #434c5e;\n        --search-input-background: #242933;\n        --search-input-background-active: #242933;\n        --border-default: #4C566A;\n        --unread-marker-background: #a3be8c;\n        --unread-marker-timestamp: #a3be8c;\n        --unread-timestamp: #a3be8c;\n        --input-placeholder-rgb: 241, 241, 242;\n        --intro-background: #2e3440;\n        --intro-border: #3b4252;\n        --button-secondary: #a3be8c;\n        --border-list: #4c566a;\n        --panel-input-background: #2e3440;\n        --panel-background-lighter: #2e3440;\n        --outgoing-background: #678b55;\n        --outgoing-background-rgb: 103, 139, 85;\n        --outgoing-background-deeper: rgb(65 87 53);\n        --dropdown-background: #2e3440;\n        --dropdown-background-hover: #3b4252;\n        --search-container-background: #2e3440;\n        --startup-background: #2e3440;\n        --panel-background-deeper: #242933;\n        --incoming-background-rgb: 46, 52, 64;\n        --typing: #a3be8c;\n        --unread-background: #2e3440;\n        --sticker-button-background: #3b4252;\n        --media-editor-image-caption-input-background: #2e3440;\n        --media-editor-video-caption-input-background: #2e3440;\n        --button-round-background: #778b66;\n        --modal-background: #2e3440;\n        --modal-backdrop: #24293388;\n        --button-primary-background: #778b66;\n        --button-primary-background-hover: #A3BE8C;\n        --button-secondary-hover: #A3BE8C;\n        --popup-panel-background: #242933;\n        --search-input-container-background: #2e3440;\n        --search-input-container-background-active: #2e3440;\n        --system-message-background: #2e3440;\n        --media-viewer-background: rgb(46 52 64 / 98%);\n        /* basically nord0 */\n        --button-plain-background: #3b4252;\n        --notification-e2e-background: #2e3440;\n        --panel-background-colored: #242933;\n        --panel-background-colored-deeper: #242933;\n        --avatar-background: #242933;\n        --reactions-panel-background-color: #2e3440;\n        --reactions-panel-search-background-color: #3b4252;\n        --filters-container-background: #2e3440;\n        --filters-item-background: #3b4252;\n        --filters-item-background-hover: #4c566a;\n        --filters-item-active-background: #a3be8c;\n        --filters-item-active-color: #eceff4;\n        --filters-item-color: #d8dee9;\n    }\n\n    svg {\n        filter: saturate(0.5) brightness(1.2) hue-rotate(305deg);\n    }\n\n    #app {\n        background-color: #2e3440;\n    }\n\n    .dark .color-1 {\n        color: #a3be8c !important;\n    }\n\n    .dark .color-2 {\n        color: #88C0D0 !important;\n    }\n\n    html[dir] .app-wrapper-web ._1jJ70 {\n        box-shadow: none;\n    }\n    .app-wrapper-web ._aigs {\n        max-width:2800px;\n        top:0;\n        width:100%;\n        height:100%;\n    }\n}",
+    "sourceCode": "/* ==UserStyle==\n@name         Whatsapp TokyoNight\n@version      1.1\n@namespace    ?\n==/UserStyle== */\n@-moz-document domain(\"web.whatsapp.com\") {\n    .dark {\n        --drawer-background-deep: #0a0e19;\n        --drawer-background: #0a0e19;\n        --drawer-section-background: #0a0e19;\n        --drawer-gallery-background: #0a0e19;\n        --incoming-background: #1a1b26;\n        --panel-header-background: #0a0e19;\n        --conversation-panel-background: #0a0e19;\n        --incoming-background-deeper: #0a0e19;\n        --rich-text-panel-background: #1a1b26;\n        --compose-input-border: #0a0e19;\n        --compose-input-background: #0a0e19;\n        --background-default: #0a0e19;\n        --background-default-hover: #24283b;\n        --background-lighter-hover: #2f334d;\n        --background-lightest-hover: #414868;\n        --background-default-active: #0a0e19;\n        --search-input-background: #0a0e19;\n        --search-input-background-active: #0a0e19;\n        --border-default: #414868;\n        --unread-marker-background: #9ece6a;\n        --unread-marker-timestamp: #9ece6a;\n        --unread-timestamp: #9ece6a;\n        --input-placeholder-rgb: 169, 177, 214;\n        --intro-background: #1a1b26;\n        --intro-border: #24283b;\n        --button-secondary: #9ece6a;\n        --border-list: #0a0e19;\n        --panel-input-background: #1a1b26;\n        --panel-background-lighter: #1a1b26;\n        --outgoing-background: #557543;\n        --outgoing-background-rgb: 85, 117, 67;\n        --outgoing-background-deeper: rgb(56, 77, 44);\n        --dropdown-background: #1a1b26;\n        --dropdown-background-hover: #24283b;\n        --search-container-background: #0a0e19;\n        --startup-background: #1a1b26;\n        --panel-background-deeper: #0a0e19;\n        --incoming-background-rgb: 26, 27, 38;\n        --typing: #9ece6a;\n        --unread-background: #1a1b26;\n        --sticker-button-background: #24283b;\n        --media-editor-image-caption-input-background: #1a1b26;\n        --media-editor-video-caption-input-background: #1a1b26;\n        --button-round-background: #668042;\n        --modal-background: #1a1b26;\n        --modal-backdrop: #0a0e1988;\n        --button-primary-background: #668042;\n        --button-primary-background-hover: #9ece6a;\n        --button-secondary-hover: #9ece6a;\n        --popup-panel-background: #0a0e19;\n        --search-input-container-background: #1a1b26;\n        --search-input-container-background-active: #1a1b26;\n        --system-message-background: #1a1b26;\n        --media-viewer-background: rgb(26 27 38 / 98%);\n        --button-plain-background: #24283b;\n        --notification-e2e-background: #1a1b26;\n        --panel-background-colored: #0a0e19;\n        --panel-background-colored-deeper: #0a0e19;\n        --avatar-background: #0a0e19;\n        --reactions-panel-background-color: #1a1b26;\n        --reactions-panel-search-background-color: #24283b;\n        --filters-container-background: #0a0e19;\n        --filters-item-background: #0a0e19;\n        --filters-item-background-hover: #414868;\n        --filters-item-active-background: #9ece6a;\n        --filters-item-active-color: #0a0e19;\n        --filters-item-color: #a9b1d6;\n    }\n\n    svg {\n        filter: saturate(0.7) brightness(1.2) hue-rotate(195deg);\n    }\n\n    #app {\n        background-color: #1a1b26;\n    }\n\n    .dark .color-1 {\n        color: #9ece6a !important;\n    }\n\n    .dark .color-2 {\n        color: #7dcfff !important;\n    }\n\n    html[dir] .app-wrapper-web ._1jJ70 {\n        box-shadow: none;\n    }\n    \n    ._aigs {\n        max-width: 2800px!important;\n        top: 0;\n        width: 100%;\n        height: 100%;\n    }\n    header { display:none!important }\n}",
     "updateUrl": "https://userstyles.world/api/style/13721.user.css",
     "usercssData": {
-      "name": "Whatsapp Nordified",
+      "name": "Whatsapp TokyoNight",
       "version": "1.1",
       "namespace": "?"
     },
-    "name": "Whatsapp Nordified",
+    "name": "Whatsapp TokyoNight",
     "originalDigest": "2e84326ebf93013d3275e8d9a36fe0b48c82e272",
     "_id": "149a23ea-7eae-4f0a-9652-d78f7d8eb4de",
-    "_rev": 1727624362792,
+    "_rev": 1733453314563,
     "id": 2,
     "url": "https://userstyles.world/style/13721",
     "installationUrl": "https://userstyles.world/style/13721",
     "customName": "whatsapp",
-    "updateDate": 1727624362792
+    "updateDate": 1733453314563
   },
   {
     "enabled": true,
@@ -178,7 +178,7 @@
     "name": "nordhub",
     "updateDate": 1728939354775,
     "_id": "0a291c9e-6f8c-4628-83bf-40d84b29b030",
-    "_rev": 1728939354776,
+    "_rev": 1733250758854,
     "id": 3
   },
   {
@@ -202,7 +202,32 @@
     "name": "home.google.com",
     "updateDate": 1727623453478,
     "_id": "095f7778-2948-4b64-a93a-687bb948ea84",
-    "_rev": 1727623453478,
+    "_rev": 1733250758855,
     "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1733489629628,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "customName": "x.com",
+    "sourceCode": "/* ==UserStyle==\n@name           x.com/home\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Seb Day\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://x.com/\") {\n    body { background: #0a0e19!important; }\n    .r-kemksi { background: #0a0e19!important;}\n}",
+    "usercssData": {
+      "name": "x.com/home",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Seb Day"
+    },
+    "author": "Seb Day",
+    "description": "A new userstyle",
+    "name": "x.com/home",
+    "updateDate": 1733489799548,
+    "_id": "82de8cad-5205-4d23-b650-f1f368bbc301",
+    "_rev": 1733489799548,
+    "id": 5
   }
 ]
