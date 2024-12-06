@@ -214,7 +214,7 @@
       }
     ],
     "customName": "x.com",
-    "sourceCode": "/* ==UserStyle==\n@name           x.com/home\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Seb Day\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://x.com/\") {\n    body { background: #0a0e19!important; }\n    .r-kemksi { background: #0a0e19!important;}\n}",
+    "sourceCode": "/* ==UserStyle==\n@name           x.com/home\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Seb Day\n==/UserStyle== */\n@-moz-document url-prefix(\"https://x.com/\") {\n    body,\n    .r-kemksi,\n    .r-5zmot {\n        background: #0a0e19!important;\n    }\n}",
     "usercssData": {
       "name": "x.com/home",
       "namespace": "github.com/openstyles/stylus",
@@ -225,9 +225,9 @@
     "author": "Seb Day",
     "description": "A new userstyle",
     "name": "x.com/home",
-    "updateDate": 1733489799548,
+    "updateDate": 1733490084647,
     "_id": "82de8cad-5205-4d23-b650-f1f368bbc301",
-    "_rev": 1733489799548,
+    "_rev": 1733490084647,
     "id": 5
   }
 ]

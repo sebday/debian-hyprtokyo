@@ -21,7 +21,7 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 - Swayidle for auto locking the screen
 
 ## Install required apps
-`sudo apt install zsh foot git firefox`
+`sudo apt install zsh foot git firefox eza fzf duf sshfs btop fastfetch pipewire alsa-utils playerctl pamixer pavucontrol imv mpv qalc cava thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends transmission libfuse2`
 
 ## Clone the dots and start hyprland
 `git clone git@github.com:sebday/debian-hyprtokyo.git ~/`
@@ -35,9 +35,6 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 ```
-
-## Standard tools
-`sudo apt install eza fzf duf sshfs btop fastfetch pipewire alsa-utils playerctl pamixer pavucontrol imv mpv qalc cava thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends transmission libfuse2`
 
 ## Software
  Install into `~/.local/bin`  [Obsidian](https://obsidian.md/) and [Cursor](https://www.cursor.com/). Grab [Insync](https://www.insynchq.com/) for Google Drive and OneDrive.
