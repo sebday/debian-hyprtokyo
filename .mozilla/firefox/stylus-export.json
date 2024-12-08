@@ -229,5 +229,30 @@
     "_id": "82de8cad-5205-4d23-b650-f1f368bbc301",
     "_rev": 1733490084647,
     "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1733677262691,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           ads.google.com/\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n@-moz-document url-prefix(\"https://ads.google.com\") {\n    #navigation\\.campaigns\\.insightsAndReports\\.dashboards,\n    #navigation\\.campaigns\\.insightsAndReports\\.reportEditor,\n    #navigation\\.campaigns\\.insightsAndReports\\.stores {\n        display: none!important;\n    }\n}",
+    "usercssData": {
+      "name": "ads.google.com/",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "ads.google.com/",
+    "updateDate": 1733678082282,
+    "_id": "7e4042c4-1a53-45cb-becf-1845054ee25b",
+    "_rev": 1733678082282,
+    "id": 6,
+    "customName": "ads.google.com"
   }
 ]
