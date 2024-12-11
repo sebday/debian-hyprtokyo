@@ -36,7 +36,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -175,9 +174,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ffe2549001065cd",
+  "active": "1c901b7ba01965ee",
   "lastOpenFiles": [
-    "notes.md",
-    "diy.md"
+    "diy.md",
+    "notes.md"
   ]
 }
