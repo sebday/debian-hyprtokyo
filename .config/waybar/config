@@ -1,25 +1,24 @@
 {
 "include": "~/.config/waybar/modules", 
 "layer": "top",
-"output": "DP-2",
+"output": "HDMI-A-1",
 "exclusive": true,
 "passthrough": false,
-"position": "top",
-"height": 32,
+"position": "bottom",
 "spacing": 3,
 "fixed-center": true,
 "ipc": true,
 "margin-top": 0,
 "margin-bottom": 0,
-"margin-left": 10,
-"margin-right": 10,
+"margin-left": 0,
+"margin-right": 0,
 
 "modules-left": [
 	"cpu",
 	"temperature",
     "memory",
     "disk",
-	"network#speed"
+	"network#speed",
 	],
 
 "modules-center": [
@@ -30,6 +29,7 @@
 "modules-right": [
 	"custom/cava_mviz",
 	"pulseaudio",
+    "pulseaudio#microphone",
 	"clock",
     "tray"
 	]

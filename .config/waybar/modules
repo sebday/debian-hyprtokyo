@@ -144,7 +144,6 @@
 	"clock": {
 		"interval": 1,
 		"format": "  {:%H:%M    %A %d %B %Y }",
-		"tooltip": true,
 		"tooltip-format": "<tt>{calendar}</tt>",
 		"calendar": {
 			"mode": "month",
@@ -159,6 +158,13 @@
 				"today": "<span color='#ff6699'><b><u>{}</u></b></span>"
 			}
 		}
+	},
+	"actions": {
+		"on-click-right": "mode",
+		"on-click-forward": "tz_up",
+		"on-click-backward": "tz_down",
+		"on-scroll-up": "shift_up",
+		"on-scroll-down": "shift_down"
 	},
 	"cpu": {
 		"interval": 1,
@@ -308,14 +314,20 @@
 			]
 		},
 		"scroll-step": 5.0,
-		"on-click": "pavucontrol -t 3",
+		"on-click": "~/.config/waybar/scripts/Volume.sh --toggle",
+		"on-click-right": "pavucontrol -t 3",
+		"on-scroll-up": "~/.config/waybar/scripts/Volume.sh --inc",
+		"on-scroll-down": "~/.config/waybar/scripts/Volume.sh --dec",
 		"smooth-scrolling-threshold": 1
 	},
 	"pulseaudio#microphone": {
 		"format": "{format_source}",
 		"format-source": " {volume}%",
 		"format-source-muted": "",
-		"on-click": "pavucontrol -t 4",
+		"on-click": "~/.config/waybar/scripts/Volume.sh --toggle-mic",
+		"on-click-right": "pavucontrol -t 4",
+		"on-scroll-up": "~/.config/waybar/scripts/Volume.sh --mic-inc",
+		"on-scroll-down": "~/.config/waybar/scripts/Volume.sh --mic-dec",
 		"tooltip-format": "{source_desc} | {source_volume}%",
 		"scroll-step": 5
 	},
