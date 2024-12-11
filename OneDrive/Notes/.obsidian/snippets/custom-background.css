@@ -1,0 +1,6 @@
+.theme-dark {
+    --background-primary: #0a0e19;
+    --background-secondary: #0a0e19;
+    --titlebar-background: #0a0e19;
+    --titlebar-background-active: red;
+}
